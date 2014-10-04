@@ -1,0 +1,68 @@
+// flags
+.vex
+  width $currentWidth
+  
+  // EUROPE
+  
+  // russia
+  &._ru
+    vex_height($ratio_2to3)
+    tricolor(#fff, $blue_p286, $red_p485)
+  
+  // latvia
+  &._lv
+    vex_height($ratio_1to2)
+    border-top (@height * 40 / 100) solid $red_201
+    border-bottom (@height * 40 / 100) solid $red_201
+    box-sizing border-box
+    background #FFF
+  
+  // poland
+  &._pl
+    vex_height($ratio_5to8)
+    twocolor(#fff, #D4213D)
+  
+  // hungary
+  &._hu
+    vex_height($ratio_2to3)
+    tricolor($red_18, #fff, $green_18)
+  
+  // Austria
+  &._at
+    vex_height($ratio_2to3)
+    tricolor($red_at, #fff, $red_at)
+  
+  // Germany
+  &._de
+    vex_height($ratio_3to5)
+    tricolor(black, $red_ger, $yel_ger)
+  
+  // Estonia
+  &._ee
+    vex_height($ratio_7to11)
+    tricolor($blue_p285, black, white)
+  
+  // Belgium
+  &._be
+    vex_height($ratio_13to15)
+    vartical_tricolor(black, $yel_bel, $red_bel)
+  
+  // Denmark
+  &._dk
+    vex_height($ratio_28to37)
+    // 12:4:12
+    background-repeat no-repeat  
+    background-image linear-gradient(90deg, #fff, #fff), linear-gradient(0deg, #fff, #fff)
+    background-color $red_den
+    background-size 100% ($currentWidth * 4 / 37)px, ($currentWidth * 4 / 37)px 100%
+    background-position 0 ($currentWidth * 12 / 37)px, ($currentWidth * 12 / 37)px 0
+  
+  // iceland
+  &._is
+    vex_height($ratio_18to25)
+    h = $currentWidth * $ratio_18to25
+    background-repeat no-repeat  
+    background-image line(90deg, $red_ice), line(0deg, $red_ice), line(90deg, #fff), line(0deg, #fff)
+    background-color $blue_ice
+    background-size 100% (h * 2 / 18)px, ($currentWidth * 2 / 25)px 100%, 100% (h * 4 / 18)px, ($currentWidth * 4 / 25)px 100%
+    background-position 0 (h * 8 / 18)px, ($currentWidth * 8 / 25)px 0, 0 (h * 7 / 18)px, ($currentWidth * 7 / 25)px 0

@@ -1,0 +1,8 @@
+# workspace files are user-specific
+*.sublime-workspace
+
+# mac os
+*.DS_Store
+
+# task manager's files
+/node_modules/

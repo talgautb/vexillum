@@ -1,0 +1,19 @@
+mixin head
+    head
+      meta(charset='utf-8')
+      title Vexillum - free flags on css
+      meta(name='description', content='Free flags of the world on CSS')
+      meta(name='keywords', content='flags, css')
+      meta(http-equiv='X-UA-Compatible', content='IE=edge')
+      meta(name='viewport', content='width=device-width, initial-scale=1')
+      link(href='demo.min.css',rel="stylesheet")
+
+mixin flag(country, code)
+  article.block._third
+
+    h2.block__title
+      | #{country}
+
+    .block__flag.vex(class='_'+code,id=code)
+
+    .block__class _#{code}

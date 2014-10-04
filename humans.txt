@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	talgautb -- frontend developer -- @talgautb
+
+# TECHNOLOGY COLOPHON
+
+	CSS3
+	Stylus

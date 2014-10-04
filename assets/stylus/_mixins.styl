@@ -1,0 +1,23 @@
+// calc height of flag
+vex_height(value)
+  height $currentWidth * value
+
+line(num, color)
+  linear-gradient(num, color, color)
+
+// mixin to do gorizontal tricolor
+tricolor(top, middle, bottom)
+  box-sizing border-box
+  border-top (@height * $one_third / 100) solid top
+  border-bottom (@height * $one_third / 100) solid bottom
+  background middle 
+  
+  
+
+// mixin to do vertical tricolor
+vartical_tricolor(first, second, third)
+  background linear-gradient(to left, first 0%, first $one_third, second $one_third, second ($one_third*2), third ($one_third*2), third ($one_third*3))
+
+// twocolor like Poland, Ukraine - from top to bottom
+twocolor(first, second)
+  background linear-gradient(first 0%, first $half, second $half, second 100%)

@@ -1,0 +1,38 @@
+doctype html
+html(lang='ru')
+  
+  include _mixins
+
+  +head
+
+  body
+
+    .wrapper
+      aside.wrapper__side
+        
+        ol.navigator(role="navigatoion")
+          each val in ['Europe', 'Asia']
+            li.navigator__li
+              a.navigator__link(href="#"+val) #{val}
+      
+      main(role="main").wrapper__main
+        .wrapper__block#Europe
+          //- Europe
+          h1.wrapper__title Europe
+
+          +flag('Russian Federation','ru')
+          +flag('Republic of Latvia','lv')
+          +flag('Republic of Poland','de')
+
+          +flag('Kingdom of Denmark','dk')
+          +flag('Kingdom of Belgium','be')
+          +flag('Republic of Estonia', 'ee')
+          
+          +flag('Hungary', 'hu')
+          +flag('Republic of Austria', 'at')
+          +flag('Iceland','is')
+          
+
+        .wrapper__block#Asia
+
+          h1.wrapper__title Asia
