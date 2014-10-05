@@ -80,3 +80,12 @@
   background-size: 100% 8px, 8px 100%, 100% 16px, 16px 100%;
   background-position: 0 32px, 32px 0, 0 28px, 28px 0;
 }
+.vex._no {
+  height: 72.72727272727269px;
+  background-repeat: no-repeat;
+  background-image: -webkit-linear-gradient(0deg, #002664, #002664), -webkit-linear-gradient(90deg, #002664, #002664), -webkit-linear-gradient(0deg, #fff, #fff), -webkit-linear-gradient(90deg, #fff, #fff);
+  background-image: linear-gradient(90deg, #002664, #002664), linear-gradient(0deg, #002664, #002664), linear-gradient(90deg, #fff, #fff), linear-gradient(0deg, #fff, #fff);
+  background-color: #ed2939;
+  background-size: 100% 9.090909090909086px, 9.090909090909092px 100%, 100% 18.181818181818173px, 18.181818181818183px 100%;
+  background-position: 0 31.818181818181802px, 31.818181818181817px 0, 0 27.27272727272726px, 27.272727272727273px 0;
+}
