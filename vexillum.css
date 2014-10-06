@@ -68,8 +68,17 @@
   background-image: -webkit-linear-gradient(0deg, #fff, #fff), -webkit-linear-gradient(90deg, #fff, #fff);
   background-image: linear-gradient(90deg, #fff, #fff), linear-gradient(0deg, #fff, #fff);
   background-color: #e31836;
-  background-size: 100% 10.81081081081081px, 10.81081081081081px 100%;
-  background-position: 0 32.432432432432435px, 32.432432432432435px 0;
+  background-size: 100% 10.810810810810816px, 10.81081081081081px 100%;
+  background-position: 0 32.43243243243244px, 32.432432432432435px 0;
+}
+.vex._se {
+  height: 62.5px;
+  background-repeat: no-repeat;
+  background-image: -webkit-linear-gradient(0deg, #ffde00, #ffde00), -webkit-linear-gradient(90deg, #ffde00, #ffde00);
+  background-image: linear-gradient(90deg, #ffde00, #ffde00), linear-gradient(0deg, #ffde00, #ffde00);
+  background-color: #0065a4;
+  background-size: 100% 12.5px, 12.5px 100%;
+  background-position: 0 25px, 31.25px 0;
 }
 .vex._is {
   height: 72px;

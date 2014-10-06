@@ -22,7 +22,19 @@ vartical_tricolor(first, second, third)
 twocolor(first, second)
   background linear-gradient(first 0%, first $half, second $half, second 100%)
 
-// special mixin for norway and sweden :)
+// for example sweden
+cross(bg, cross_color, ratio_h, ratio_w, top, left, size)
+  $ratio = ratio_h / ratio_w
+  height $currentWidth * $ratio
+  background-repeat no-repeat  
+  background-image line(90deg, cross_color), line(0deg, cross_color)
+  background-color bg
+  background-size 100% (@height * size / ratio_h)px, ($currentWidth * size / ratio_w)px 100%
+  background-position 0 (@height * top / ratio_h)px, ($currentWidth * left / ratio_w)px 0
+  
+
+
+// special mixin for norway and iceland
 nordic_cross(bg, cross_color_1, cross_color_2, ratio_h, ratio_w, top, left)
   $ratio = ratio_h / ratio_w
   height $currentWidth * $ratio

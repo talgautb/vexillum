@@ -49,13 +49,14 @@
   
   // Denmark
   &._dk
-    vex_height($ratio_28to37)
-    // 12:4:12
-    background-repeat no-repeat  
-    background-image linear-gradient(90deg, #fff, #fff), linear-gradient(0deg, #fff, #fff)
-    background-color $red_den
-    background-size 100% ($currentWidth * 4 / 37)px, ($currentWidth * 4 / 37)px 100%
-    background-position 0 ($currentWidth * 12 / 37)px, ($currentWidth * 12 / 37)px 0
+    // 28:37
+    cross($red_den, #fff, 28, 37, 12, 12, 4)
+  
+  // Sweden
+  &._se
+    // 10:16
+    cross($blue_se, $yel_se, 10, 16, 4, 5, 2)
+    
   
   // iceland
   &._is
