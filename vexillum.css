@@ -107,3 +107,11 @@
   background-size: 100% 16.666666666666664px, 16.666666666666668px 100%;
   background-position: 0 22.22222222222222px, 27.77777777777778px 0;
 }
+.vex._am {
+  height: 50px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  border-top: 16.666666666666664px solid #d90012;
+  border-bottom: 16.666666666666664px solid #f2a800;
+  background: #0033a0;
+}
