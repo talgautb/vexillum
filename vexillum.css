@@ -120,3 +120,11 @@
   background: -webkit-linear-gradient(#0057b8 0%, #0057b8 50%, #ffd700 50%, #ffd700 100%);
   background: linear-gradient(#0057b8 0%, #0057b8 50%, #ffd700 50%, #ffd700 100%);
 }
+.vex._lt {
+  height: 60px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  border-top: 19.999999999999996px solid #fdb913;
+  border-bottom: 19.999999999999996px solid #c1272d;
+  background: #006a44;
+}
