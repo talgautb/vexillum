@@ -1,14 +1,14 @@
 // flags
 .vex
   width $currentWidth
-  
+
   // EUROPE
-  
+
   // russia
   &._ru
     vex_height($ratio_2to3)
     tricolor(#fff, $blue_p286, $red_p485)
-  
+
   // latvia
   &._lv
     vex_height($ratio_1to2)
@@ -16,70 +16,75 @@
     border-bottom (@height * 40 / 100) solid $red_201
     box-sizing border-box
     background #FFF
-  
+
   // poland
   &._pl
     vex_height($ratio_5to8)
     twocolor(#fff, #D4213D)
-  
+
   // hungary
   &._hu
     vex_height($ratio_2to3)
     tricolor($red_18, #fff, $green_18)
-  
+
   // Austria
   &._at
     vex_height($ratio_2to3)
     tricolor($red_at, #fff, $red_at)
-  
+
   // Germany
   &._de
     vex_height($ratio_3to5)
     tricolor(black, $red_ger, $yel_ger)
-  
+
   // Estonia
   &._ee
     vex_height($ratio_7to11)
     tricolor($blue_p285, black, white)
-  
+
   // Belgium
   &._be
     vex_height($ratio_13to15)
     vartical_tricolor(black, $yel_bel, $red_bel)
-  
+
   // Denmark
   &._dk
     // 28:37
     cross($red_den, #fff, 28, 37, 12, 12, 4)
-  
+
   // Sweden
   &._se
     // 10:16
     cross($blue_se, $yel_se, 10, 16, 4, 5, 2)
-  
+
   // iceland
   &._is
     nordic_cross($blue_ice, $red_ice, #fff, 18, 25, 8, 8)
-  
+
   // norway
   &._no
     nordic_cross($red_no, $blue_no, #fff, 16, 22, 7, 7)
-  
+
   // Finland
   &._fl
     cross(#fff, $blue_fl, 11, 18, 4, 5, 3)
-    
+
   // Armenia
   &._am
     vex_height($ratio_1to2)
     tricolor($red_am, $blue_am, $yel_am)
-  
+
   // Ikraine
   &._ua
     vex_height($ratio_2to3)
     twocolor(#0057b8, #ffd700)
-  
+
   // Lithuania
   &._lt
     vex_height($ratio_3to5)
     tricolor($yel_lt, $green_lt, $red_lt)
+
+  // Bulgaria
+  &._bg
+    vex_height($ratio_3to5)
+    tricolor(#fff, $green_bg, $red_bg)

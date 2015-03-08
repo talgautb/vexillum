@@ -1,6 +1,6 @@
 doctype html
 html(lang='ru')
-  
+
   include _mixins
 
   +head
@@ -9,12 +9,12 @@ html(lang='ru')
 
     .wrapper
       aside.wrapper__side
-        
+
         ol.navigator(role="navigatoion")
           each val in ['Europe', 'Asia']
             li.navigator__li
               a.navigator__link(href="#"+val) #{val}
-      
+
       main(role="main").wrapper__main
         .wrapper__block#Europe
           //- Europe
@@ -23,7 +23,7 @@ html(lang='ru')
           +flag('Russian Federation','ru')
           +flag('Republic of Austria', 'at')
           +flag('Republic of Estonia', 'ee')
-          
+
           +flag('Hungary', 'hu')
           +flag('Federal Republic of Germany','de')
           +flag('Republic of Latvia','lv')
@@ -41,6 +41,7 @@ html(lang='ru')
           +flag('Ukraine','ua')
 
           +flag('Republic of Lithuania','lt')
+          +flag('Republic of Bulgaria','bg')
 
         .wrapper__block#Asia
 
