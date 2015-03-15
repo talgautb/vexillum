@@ -43,3 +43,13 @@ nordic_cross(bg, cross_color_1, cross_color_2, ratio_h, ratio_w, top, left)
   background-color bg
   background-size 100% (@height * 2 / ratio_h)px, ($currentWidth * 2 / ratio_w)px 100%, 100% (@height * 4 / ratio_h)px, ($currentWidth * 4 / ratio_w)px 100%
   background-position 0 (@height * top / ratio_h)px, ($currentWidth * left / ratio_w)px 0, 0 (@height * (top - 1) / ratio_h)px, ($currentWidth * (left - 1) / ratio_w)px 0
+
+// Greece flag's mixin
+greece_flag(bg, cross_color, ratio_h, ratio_w, top, left, size)
+  $ratio = ratio_h / ratio_w
+  height: $currentWidth * $ratio
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat-y
+  background-image: linear-gradient(90deg, cross_color, cross_color), linear-gradient(0deg, cross_color, cross_color), linear-gradient(bg 100%, cross_color 100%), linear-gradient(bg 50%, cross_color 50%)
+  background-color: bg
+  background-size: (@height * 10 / ratio_h)px (@height * size / ratio_h)px, ($currentWidth * size / ratio_w)px (@height * 10 / ratio_h)px, (@height * 10 / ratio_h)px (@height * 10 / ratio_h)px, 100% (@height * (size * 2 / ratio_h))px
+  background-position: 0 (@height * top / ratio_h)px, ($currentWidth * left / ratio_w)px 0, 0 0, 0 0
