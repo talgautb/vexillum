@@ -161,3 +161,11 @@
   background: -webkit-linear-gradient(right, #009246 0%, #009246 33.33333333333333%, #f1f2f1 33.33333333333333%, #f1f2f1 66.66666666666666%, #ce2b37 66.66666666666666%, #ce2b37 99.99999999999999%);
   background: linear-gradient(to left, #009246 0%, #009246 33.33333333333333%, #f1f2f1 33.33333333333333%, #f1f2f1 66.66666666666666%, #ce2b37 66.66666666666666%, #ce2b37 99.99999999999999%);
 }
+.vex._lu {
+  height: 133.3333333333334px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  border-top: 44.444444444444464px solid #ef3340;
+  border-bottom: 44.444444444444464px solid #00a3e0;
+  background: #fff;
+}
