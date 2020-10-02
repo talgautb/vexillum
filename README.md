@@ -3,7 +3,7 @@ Vexillum - flags on css
 
 Done by [talgautb](https://twitter.com/talgautb).
 
-Free flags of the world on css.
+Free flags of the world on css with only one HTML tag (div).
 
 [Demo](http://talgautb.github.io/vexillum/demo/)
 =====
