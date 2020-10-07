@@ -4,6 +4,15 @@
 .vex {
   width: 200px;
 }
+.vex._cz {
+  height: 133.3333333333334px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  border-style: solid;
+  border-width: 66.66666666666664px 0 66.66666666666664px 100px;
+  border-color: white transparent transparent #0637be;
+  background: #eb0009;
+}
 .vex._ru {
   height: 133.3333333333334px;
   -moz-box-sizing: border-box;
